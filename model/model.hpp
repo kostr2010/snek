@@ -1,6 +1,7 @@
 #pragma once
 
-#include "../utils/directions.hpp"
+// #include "../utils/direction.hpp"
+#include "../entity/entity.hpp"
 #include "../utils/log.hpp"
 #include "../utils/response.hpp"
 #include "../utils/vec2.hpp"
@@ -9,37 +10,11 @@
 #include <set>
 #include <vector>
 
-const int MAX_RABBITS = 10;
-const int MAX_SNAKES  = 4;
+const int MAX_RABBITS  = 10;
+const int MAX_SNAKES   = 4;
+const int MAX_ENTITIES = MAX_RABBITS + MAX_SNAKES;
 
-class Entity {
-public:
-  Entity();
-  Entity(Vec2 pos, bool active = false);
-
-  ~Entity() = default;
-
-  Vec2 pos_{};
-
-  bool active_;
-
-private:
-};
-
-typedef Entity Rabbit;
-
-class Snake : public Entity {
-public:
-  Snake();
-  ~Snake() = default;
-
-private:
-  Direction         move_direction_ = Direction::Neutral;
-  std::vector<Vec2> segments_{};
-};
-
-typedef int SnakeId;
-typedef int RabbitId;
+typedef int EntityId;
 
 class Model {
 public:
@@ -48,27 +23,24 @@ public:
 
   void Tick();
 
-  ResponseCode SetSnakeMoveDirection(SnakeId snake);
-  Direction    GetSnakeMoveDirection(SnakeId snake);
+  ResponseCode SetSnakeMoveDirection(EntityId snake);
+  Direction    GetSnakeMoveDirection(EntityId snake);
 
-  std::vector<SnakeId> GetSnakeViableIds();
-  SnakeId              GetPlayerSnakeId();
+  EntityId GetPlayerSnakeId();
 
 private:
-  SnakeId      AddSnake(Vec2 pos);
-  ResponseCode RemoveSnake(SnakeId id);
+  EntityId AddSnake(Vec2 pos);
+  EntityId AddRabbit(Vec2 pos);
 
-  RabbitId     AddRabbit(Vec2 pos);
-  ResponseCode RemoveRabbit(RabbitId id);
+  ResponseCode RemoveEntity(EntityId id);
 
-  ResponseCode MoveSnake(SnakeId id);
-  void         GrowSnake(SnakeId id);
+  ResponseCode MoveSnake(EntityId id);
+  void         GrowSnake(EntityId id);
 
-  Vec2                            map_size;
-  std::vector<Vec2>               occupied_tiles_;
-  int                             n_snakes_;
-  SnakeId                         player_snake_;
-  std::array<Snake, MAX_SNAKES>   snakes_;
-  int                             n_rabbits;
-  std::array<Rabbit, MAX_RABBITS> rabbits_;
+  Vec2 map_size;
+
+  int                               n_rabbits;
+  int                               n_snakes_;
+  EntityId                          player_snake_;
+  std::array<Entity*, MAX_ENTITIES> entities_;
 };

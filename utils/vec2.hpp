@@ -14,13 +14,30 @@ bool operator==(Vec2 left, Vec2 right) {
   return (left.x == right.x) && (left.y == right.y);
 }
 
-void operator+=(Vec2& left, Vec2& right) {
+void operator+=(Vec2& left, const Vec2& right) {
   left.x += right.x;
   left.y += right.y;
 }
 
 Vec2 operator+(Vec2& left, Vec2& right) {
   return {left.x + right.x, left.y + right.y};
+}
+
+Vec2 operator+(Vec2 left, Vec2 right) {
+  return {left.x + right.x, left.y + right.y};
+}
+
+void operator-=(Vec2& left, const Vec2& right) {
+  left.x -= right.x;
+  left.y -= right.y;
+}
+
+Vec2 operator-(Vec2& left, Vec2& right) {
+  return {left.x - right.x, left.y - right.y};
+}
+
+Vec2 operator-(Vec2 left, Vec2 right) {
+  return {left.x - right.x, left.y - right.y};
 }
 
 std::ostream& operator<<(std::ostream& os, Vec2 v) {
