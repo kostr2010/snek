@@ -3,21 +3,9 @@
 #include <algorithm>
 
 // ====================
-// Entity
-
-Entity::Entity(EntityKind kind, bool status = false) {
-  status_ = status;
-  kind_   = kind;
-}
-
-EntityKind Entity::GetEntityKind() {
-  return kind_;
-}
-
-// ====================
 // Rabbit
 
-Rabbit::Rabbit(Vec2 pos, bool status = false) : Entity(EntityKind::Rabbit, status_) {
+Rabbit::Rabbit(Vec2 pos) : Entity() {
   position_ = pos;
 }
 
@@ -33,17 +21,15 @@ bool Rabbit::Occupies(Vec2 tile) {
 // ====================
 // Snake
 
-Snake::Snake(std::vector<Vec2> segments, bool status = false) : Entity(EntityKind::Snake, status_) {
+Snake::Snake(std::vector<Vec2> segments) : Entity() {
   segments_ = segments;
 
-  move_direction_ = Direction::Neutral;
+  move_direction_ = Direction::Up;
 }
 
 Vec2 Snake::Grow() {
   if (segments_.size() == 1) { // only head
     switch (move_direction_) {
-    case Direction::Neutral:
-      break;
     case Direction::Up:
       segments_.push_back(segments_.front() + ELEM_VECTOR_Y);
       break;
@@ -77,24 +63,26 @@ Vec2 Snake::Grow() {
   return segments_.back();
 }
 
-Vec2 Snake::Move() {
-  for (auto i = segments_.rbegin(); i != segments_.rend() - 1; ++i)
-    *i = *(i - 1);
-
+Vec2 Snake::GetNewHeadPos() {
   switch (move_direction_) {
   case Direction::Up:
-    segments_.front() += ELEM_VECTOR_Y;
-    break;
+    return segments_.front() + ELEM_VECTOR_Y;
   case Direction::Down:
-    segments_.front() -= ELEM_VECTOR_Y;
-    break;
+    return segments_.front() - ELEM_VECTOR_Y;
   case Direction::Right:
-    segments_.front() += ELEM_VECTOR_X;
-    break;
+    return segments_.front() + ELEM_VECTOR_X;
   case Direction::Left:
-    segments_.front() -= ELEM_VECTOR_X;
-    break;
+    return segments_.front() - ELEM_VECTOR_X;
   }
+}
+
+Vec2 Snake::Move() {
+  segments_.front() = GetNewHeadPos();
+
+  std::cout << segments_.front() << "\n";
+
+  for (auto i = segments_.rbegin(); i != segments_.rend() - 1; ++i)
+    *i = *(i - 1);
 
   return segments_.front();
 }

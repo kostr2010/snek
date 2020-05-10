@@ -1,0 +1,75 @@
+[MODEL] Model::Model(Vec2, int, int)                                  initial snakes spawned
+[MODEL] EntityId Model::AddRabbit(Vec2)                               rabbit 0 spawned at pos {31, 24}
+[MODEL] EntityId Model::AddRabbit(Vec2)                               rabbit 1 spawned at pos {34, 29}
+[MODEL] Model::Model(Vec2, int, int)                                  initial rabbits spawned
+[MODEL] Model::Model(Vec2, int, int)                                  model initialized
+[MODEL] ResponseCode Model::Tick()                                    
+==================== TICK 0   ====================
+
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 tries to move to {13, 21}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 successfully moved to {13, 21}
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 tries to move to {26, 21}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 successfully moved to {26, 21}
+[MODEL] ResponseCode Model::Tick()                                    
+==================== TICK 1   ====================
+
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 tries to move to {13, 22}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 successfully moved to {13, 22}
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 tries to move to {26, 22}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 successfully moved to {26, 22}
+[MODEL] ResponseCode Model::Tick()                                    
+==================== TICK 2   ====================
+
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 tries to move to {13, 23}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 successfully moved to {13, 23}
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 tries to move to {26, 23}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 successfully moved to {26, 23}
+[MODEL] ResponseCode Model::Tick()                                    
+==================== TICK 3   ====================
+
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 tries to move to {13, 24}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 successfully moved to {13, 24}
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 tries to move to {26, 24}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 successfully moved to {26, 24}
+[MODEL] ResponseCode Model::Tick()                                    
+==================== TICK 4   ====================
+
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 tries to move to {13, 25}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 successfully moved to {13, 25}
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 tries to move to {26, 25}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 successfully moved to {26, 25}
+[MODEL] ResponseCode Model::Tick()                                    
+==================== TICK 5   ====================
+
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 tries to move to {13, 26}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 successfully moved to {13, 26}
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 tries to move to {26, 26}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 successfully moved to {26, 26}
+[MODEL] ResponseCode Model::Tick()                                    
+==================== TICK 6   ====================
+
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 tries to move to {13, 27}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 successfully moved to {13, 27}
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 tries to move to {26, 27}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 successfully moved to {26, 27}
+[MODEL] ResponseCode Model::Tick()                                    
+==================== TICK 7   ====================
+
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 tries to move to {13, 28}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 successfully moved to {13, 28}
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 tries to move to {26, 28}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 successfully moved to {26, 28}
+[MODEL] ResponseCode Model::Tick()                                    
+==================== TICK 8   ====================
+
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 tries to move to {13, 29}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 successfully moved to {13, 29}
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 tries to move to {26, 29}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 successfully moved to {26, 29}
+[MODEL] ResponseCode Model::Tick()                                    
+==================== TICK 9   ====================
+
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 tries to move to {13, 30}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 0 successfully moved to {13, 30}
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 tries to move to {26, 30}, occupied by entity -1
+[MODEL] ResponseCode Model::MoveSnake(EntityId)                       snake 1 successfully moved to {26, 30}

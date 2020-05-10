@@ -6,7 +6,6 @@ enum class Direction {
   Down,
   Left,
   Right,
-  Neutral,
 };
 
 extern const Vec2 ELEM_VECTOR_X;

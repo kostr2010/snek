@@ -7,39 +7,25 @@
 // implementation of the simple 2d vector
 
 struct Vec2 {
+  Vec2() = default;
+  Vec2(int i, int j);
+  Vec2(const Vec2& that);
+
   int x, y;
 };
 
-bool operator==(Vec2 left, Vec2 right) {
-  return (left.x == right.x) && (left.y == right.y);
-}
+bool operator==(Vec2 left, Vec2 right);
 
-void operator+=(Vec2& left, const Vec2& right) {
-  left.x += right.x;
-  left.y += right.y;
-}
+void operator+=(Vec2& left, const Vec2& right);
 
-Vec2 operator+(Vec2& left, Vec2& right) {
-  return {left.x + right.x, left.y + right.y};
-}
+Vec2 operator+(const Vec2 left, const Vec2 right);
 
-Vec2 operator+(Vec2 left, Vec2 right) {
-  return {left.x + right.x, left.y + right.y};
-}
+void operator-=(Vec2& left, const Vec2& right);
 
-void operator-=(Vec2& left, const Vec2& right) {
-  left.x -= right.x;
-  left.y -= right.y;
-}
+Vec2 operator-(const Vec2 left, const Vec2 right);
 
-Vec2 operator-(Vec2& left, Vec2& right) {
-  return {left.x - right.x, left.y - right.y};
-}
+std::ostream& operator<<(std::ostream& os, Vec2 v);
 
-Vec2 operator-(Vec2 left, Vec2 right) {
-  return {left.x - right.x, left.y - right.y};
-}
+void operator*=(Vec2& left, const int& right);
 
-std::ostream& operator<<(std::ostream& os, Vec2 v) {
-  return os << "x: " << v.x << " y: " << v.y;
-}
+Vec2 operator*(const Vec2 left, int right);
