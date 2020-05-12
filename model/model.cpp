@@ -130,23 +130,39 @@ Vec2 Model::GetNearestRabbit(Vec2 origin) {
 }
 
 void Model::IterateSnakes(SnakeHandler1 handler, EntityId from, EntityId to) {
+  LOG_LVL_MODEL_ROUTINE("iterating snakes from " << from << " to " << to);
+
   for (int i = from; i < to; i++)
     handler((Snake*)entities_[i], this);
+
+  LOG_LVL_MODEL_ROUTINE("done");
 }
 
 void Model::IterateSnakes(SnakeHandler2 handler, EntityId from, EntityId to) {
+  LOG_LVL_MODEL_ROUTINE("iterating snakes from " << from << " to " << to);
+
   for (int i = from; i < to; i++)
     handler((Snake*)entities_[i]);
+
+  LOG_LVL_MODEL_ROUTINE("done");
 }
 
 void Model::IterateRabbits(RabbitHandler1 handler, EntityId from, EntityId to) {
+  LOG_LVL_MODEL_ROUTINE("iterating rabbits from " << from << " to " << to);
+
   for (int i = from; i < to; i++)
     handler((Rabbit*)entities_[i], this);
+
+  LOG_LVL_MODEL_ROUTINE("done");
 }
 
 void Model::IterateRabbits(RabbitHandler2 handler, EntityId from, EntityId to) {
+  LOG_LVL_MODEL_ROUTINE("iterating rabbits from " << from << " to " << to);
+
   for (int i = from; i < to; i++)
     handler((Rabbit*)entities_[i]);
+
+  LOG_LVL_MODEL_ROUTINE("done");
 }
 
 EntityId Model::AddRabbit(Vec2 pos) {
@@ -158,7 +174,11 @@ EntityId Model::AddRabbit(Vec2 pos) {
 
   ((Rabbit*)(entities_[MAX_SNAKES + n_rabbits_]))->position_ = pos;
 
-  LOG_LVL_MODEL_ROUTINE("rabbit " << MAX_SNAKES + n_rabbits_ << " spawned at pos " << pos);
+  LOG_LVL_MODEL_ROUTINE("rabbit " << MAX_SNAKES + n_rabbits_ << " spawned at pos " << pos
+                                  << "now there are " << n_rabbits_ + 1 << "rabbits on the map");
+  IterateRabbits([](Rabbit* rabbit) { LOG_LVL_MODEL_ROUTINE("  > " << rabbit->position_); },
+                 MAX_SNAKES,
+                 MAX_SNAKES + n_rabbits_ + 1);
 
   return n_rabbits_++;
 }
@@ -172,25 +192,33 @@ ResponseCode Model::RemoveEntity(EntityId entity_id) {
     if (entity_id != n_snakes_ - 1)
       entities_[entity_id] = entities_[n_snakes_ - 1];
 
+    entities_[n_snakes_ - 1] = nullptr;
+
     n_snakes_--;
 
     LOG_LVL_MODEL_ROUTINE("snake " << entity_id << " removed. now there are " << n_snakes_
                                    << " snakes on the map");
 
     return ResponseCode::Success;
-  } else if (entity_id < MAX_SNAKES + n_rabbits_ - 1 && entity_id >= MAX_SNAKES) {
+  } else if (entity_id < MAX_SNAKES + n_rabbits_ && entity_id >= MAX_SNAKES) {
     if (entity_id != MAX_SNAKES + n_rabbits_ - 1)
-      entities_[entity_id] = entities_[MAX_SNAKES + n_rabbits_ - 1];
+      ((Rabbit*)entities_[entity_id])->position_ =
+          ((Rabbit*)entities_[MAX_SNAKES + n_rabbits_ - 1])->position_;
 
     n_rabbits_--;
 
     LOG_LVL_MODEL_ROUTINE("rabbit " << entity_id << " removed. now there are " << n_rabbits_
                                     << " rabbits on the map");
 
+    IterateRabbits([](Rabbit* rabbit) { LOG_LVL_MODEL_ROUTINE("  > " << rabbit->position_); },
+                   MAX_SNAKES,
+                   MAX_SNAKES + n_rabbits_);
+
     return ResponseCode::Success;
   }
 
-  LOG_LVL_MODEL_FAILURE("no active entity " << entity_id << " was found");
+  LOG_LVL_MODEL_FAILURE("no active entity " << entity_id << " was found among " << n_snakes_
+                                            << " snakes and " << n_rabbits_ << " rabbits");
   return ResponseCode::Failure;
 }
 

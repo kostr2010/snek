@@ -263,11 +263,11 @@ void TextUI::DrawGameBoundary() {
 
   TextUI::DrawChar({1, 1}, '#');
   TextUI::DrawHorizontalLine({1, 2}, win_sz.ws_col - 2);
-  TextUI::DrawChar({win_sz.ws_row, 1}, '#');
+  TextUI::DrawChar({win_sz.ws_col, 1}, '#');
 
-  TextUI::DrawChar({1, win_sz.ws_col}, '#');
+  TextUI::DrawChar({1, win_sz.ws_row}, '#');
   TextUI::DrawHorizontalLine({win_sz.ws_row, 2}, win_sz.ws_col - 2);
-  TextUI::DrawChar({win_sz.ws_row, win_sz.ws_col}, '#');
+  TextUI::DrawChar({win_sz.ws_col, win_sz.ws_row}, '#');
 
   TextUI::DrawVerticalLine({2, 1}, win_sz.ws_row - 2);
   TextUI::DrawVerticalLine({2, win_sz.ws_col}, win_sz.ws_row - 2);
@@ -295,7 +295,7 @@ void TextUI::DrawVerticalLine(Vec2 pos, int length) {
   std::string str = (pos.y == win_sz.ws_col) ? "" : "\e[1D";
 
   for (auto i = 0; i < length; i++)
-    std::printf("|\e[1B%s", str.c_str());
+    std::printf("#\e[1B%s", str.c_str());
 }
 
 void TextUI::DrawHorizontalLine(Vec2 pos, int length) {
@@ -307,5 +307,5 @@ void TextUI::DrawHorizontalLine(Vec2 pos, int length) {
   std::printf("\e[%d;%dH", pos.x, pos.y);
 
   for (auto i = pos.x; i < pos.x + length; i++)
-    std::printf("-");
+    std::printf("#");
 }
