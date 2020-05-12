@@ -1,4 +1,5 @@
 #include "./entity.hpp"
+#include "../utils/log.hpp"
 
 #include <algorithm>
 
@@ -9,11 +10,6 @@ Rabbit::Rabbit(Vec2 pos) : Entity() {
   position_ = pos;
 }
 
-void Rabbit::Draw(/*GUI& gui*/) {
-  // FIXME: do GUI class with DrawRabbit & DrawSnake (basically, draw every game element)
-  return;
-}
-
 bool Rabbit::Occupies(Vec2 tile) {
   return position_ == tile;
 }
@@ -21,26 +17,37 @@ bool Rabbit::Occupies(Vec2 tile) {
 // ====================
 // Snake
 
-Snake::Snake(std::vector<Vec2> segments) : Entity() {
+Snake::Snake(std::vector<Vec2> segments, int tag) : Entity() {
   segments_ = segments;
+  score_    = 0;
+  tag_      = tag;
 
   move_direction_ = Direction::Up;
 }
 
 Vec2 Snake::Grow() {
+  LOG_LVL_MODEL_ROUTINE("trying to grow snake " << tag_ << " of size " << segments_.size() << ": "
+                                                << segments_);
+
+  Vec2 segm_new{};
+
   if (segments_.size() == 1) { // only head
     switch (move_direction_) {
     case Direction::Up:
-      segments_.push_back(segments_.front() + ELEM_VECTOR_Y);
+      segm_new = segments_.front() + ELEM_VECTOR_Y;
+      LOG_LVL_MODEL_ROUTINE("A attached segment at " << segm_new);
       break;
     case Direction::Down:
-      segments_.push_back(segments_.front() - ELEM_VECTOR_Y);
+      segm_new = segments_.front() - ELEM_VECTOR_Y;
+      LOG_LVL_MODEL_ROUTINE("V attached segment at " << segm_new);
       break;
     case Direction::Right:
-      segments_.push_back(segments_.front() + ELEM_VECTOR_X);
+      segm_new = segments_.front() - ELEM_VECTOR_X;
+      LOG_LVL_MODEL_ROUTINE("> attached segment at " << segm_new);
       break;
     case Direction::Left:
-      segments_.push_back(segments_.front() - ELEM_VECTOR_X);
+      segm_new = segments_.front() + ELEM_VECTOR_X;
+      LOG_LVL_MODEL_ROUTINE("< attached segment at " << segm_new);
       break;
     }
   } else {
@@ -48,17 +55,28 @@ Vec2 Snake::Grow() {
     Vec2 penultimate = segments_.end()[-2];
 
     if (ultimate.x == penultimate.x) {
-      if (ultimate.y < penultimate.y)
-        segments_.push_back(ultimate - ELEM_VECTOR_Y);
-      else
-        segments_.push_back(ultimate + ELEM_VECTOR_Y);
+      if (ultimate.y < penultimate.y) {
+        segm_new = ultimate - ELEM_VECTOR_Y;
+        LOG_LVL_MODEL_ROUTINE("attached segment at " << ultimate - ELEM_VECTOR_Y);
+
+      } else {
+        segm_new = ultimate + ELEM_VECTOR_Y;
+        LOG_LVL_MODEL_ROUTINE("attached segment at " << ultimate + ELEM_VECTOR_Y);
+      }
     } else if (ultimate.y == penultimate.y) {
-      if (ultimate.x < penultimate.x)
-        segments_.push_back(ultimate - ELEM_VECTOR_X);
-      else
-        segments_.push_back(ultimate + ELEM_VECTOR_X);
+      if (ultimate.x < penultimate.x) {
+        segm_new = ultimate - ELEM_VECTOR_X;
+        LOG_LVL_MODEL_ROUTINE("attached segment at " << ultimate - ELEM_VECTOR_X);
+      } else {
+        segm_new = ultimate + ELEM_VECTOR_X;
+        LOG_LVL_MODEL_ROUTINE("attached segment at " << ultimate + ELEM_VECTOR_X);
+      }
     }
   }
+
+  segments_.push_back(segm_new);
+
+  LOG_LVL_MODEL_ROUTINE("now this snake consists of " << segments_);
 
   return segments_.back();
 }
@@ -66,30 +84,31 @@ Vec2 Snake::Grow() {
 Vec2 Snake::GetNewHeadPos() {
   switch (move_direction_) {
   case Direction::Up:
-    return segments_.front() + ELEM_VECTOR_Y;
-  case Direction::Down:
     return segments_.front() - ELEM_VECTOR_Y;
+  case Direction::Down:
+    return segments_.front() + ELEM_VECTOR_Y;
   case Direction::Right:
     return segments_.front() + ELEM_VECTOR_X;
   case Direction::Left:
     return segments_.front() - ELEM_VECTOR_X;
+  default:
+    return {-1, -1};
   }
 }
 
 Vec2 Snake::Move() {
+  // segments_.front() = GetNewHeadPos();
+
+  LOG_LVL_MODEL_ROUTINE("moving snake " << tag_ << ": " << segments_);
+
+  for (int i = segments_.size() - 1; i > 0; i--)
+    segments_[i] = segments_[i - 1];
+
   segments_.front() = GetNewHeadPos();
 
-  std::cout << segments_.front() << "\n";
-
-  for (auto i = segments_.rbegin(); i != segments_.rend() - 1; ++i)
-    *i = *(i - 1);
+  LOG_LVL_MODEL_ROUTINE("moved snake " << tag_ << ": " << segments_);
 
   return segments_.front();
-}
-
-void Snake::Draw(/*GUI& gui*/) {
-  // FIXME: do GUI class with DrawRabbit & DrawSnake (basically, draw every game element)
-  return;
 }
 
 bool Snake::Occupies(Vec2 tile) {

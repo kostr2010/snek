@@ -10,6 +10,10 @@ Vec2::Vec2(const Vec2& that) {
   this->y = that.y;
 }
 
+double Vec2::Length() {
+  return std::sqrt(x * x + y * y);
+}
+
 bool operator==(Vec2 left, Vec2 right) {
   return (left.x == right.x) && (left.y == right.y);
 }
@@ -34,6 +38,16 @@ Vec2 operator-(const Vec2 left, const Vec2 right) {
 
 std::ostream& operator<<(std::ostream& os, Vec2 v) {
   return os << "{" << v.x << ", " << v.y << "}";
+}
+
+std::ostream& operator<<(std::ostream& os, std::vector<Vec2> v) {
+  os << "{";
+
+  for (auto elem : v) {
+    os << elem << ", ";
+  }
+
+  return os << "}";
 }
 
 void operator*=(Vec2& left, const int& right) {

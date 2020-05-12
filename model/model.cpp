@@ -5,9 +5,11 @@
 #include <ctime>
 #include <iostream>
 
-Model::Model(Vec2 map_size, int n_snakes, int n_rabbits) {
+Model::Model() {
   LOG_LVL_MODEL_INIT();
+}
 
+void Model::Init(Vec2 map_size, int n_snakes, int n_rabbits) {
   assertm(n_snakes <= MAX_SNAKES && n_snakes > 0, "[MODEL] invalid snakes amount");
   assertm(n_rabbits <= MAX_RABBITS && n_rabbits > 0, "[MODEL] invalid rabbits amount");
   assertm(map_size.x >= MIN_MAP_X && map_size.y >= MIN_MAP_Y, "[MODEL] invalid map size");
@@ -20,12 +22,11 @@ Model::Model(Vec2 map_size, int n_snakes, int n_rabbits) {
 
   for (int i = 0; i < n_snakes; i++) {
     Vec2 head_i(ELEM_VECTOR_X * offset_x * (i + 1) + ELEM_VECTOR_Y * offset_y);
-    std::cout << "> " << head_i << "\n";
-    entities_[i] = new Snake({head_i});
+    entities_[i] = new Snake({head_i}, i);
   }
 
   for (int i = n_snakes; i < MAX_SNAKES; i++)
-    entities_[i] = new Snake({{0, 0}});
+    entities_[i] = new Snake({{0, 0}}, i);
 
   n_snakes_ = n_snakes;
 
@@ -57,15 +58,11 @@ ResponseCode Model::Tick() {
   LOG_LVL_MODEL_ROUTINE("\n==================== TICK " << std::setw(4) << tick++
                                                        << "====================\n");
 
-  for (int i = 0; i < n_snakes_; i++) {
-    if (MoveSnake(i) == ResponseCode::Error) {
+  for (int i = n_snakes_ - 1; i >= 0; i--)
+    if (MoveSnake(i) == ResponseCode::Error)
       return ResponseCode::Error;
-    }
 
-    if (n_rabbits_ < n_rabbits_max_) {
-      AddRabbit(GetRandomPosition());
-    }
-  }
+  return ResponseCode::Success;
 }
 
 Vec2 Model::GetRandomPosition() {
@@ -93,14 +90,63 @@ EntityId Model::GetPlayerSnakeId() {
   return player_snake_;
 }
 
-Entity* Model::GetEntity(EntityId entity_id) {
-  if (entity_id < 0 || entity_id >= n_rabbits_max_ + MAX_SNAKES) {
-    LOG_LVL_MODEL_FAILURE("invalid entity_id " << entity_id << ". returning nullptr");
+int Model::GetNSnakes() {
+  return n_snakes_;
+}
 
-    return nullptr;
+int Model::GetNRabbits() {
+  return n_rabbits_;
+}
+
+ResponseCode Model::SetMapSize(Vec2 new_size) {
+  assertm(new_size.x > MIN_MAP_X && new_size.y > MIN_MAP_Y, "invalid map resize");
+
+  // FIXME: add dynamic map resize
+
+  return ResponseCode::Success;
+}
+
+Vec2 Model::GetMapSize() {
+  return map_size_;
+}
+
+Vec2 Model::GetNearestRabbit(Vec2 origin) {
+  int  distance_min = map_size_.Length(); // each distance on the map is lesser than it's diagonal
+  Vec2 nearest_pos  = map_size_;
+
+  for (int i = MAX_SNAKES; i < MAX_SNAKES + n_rabbits_; i++) {
+    Vec2 rabbit_pos = ((Rabbit*)entities_[i])->position_;
+
+    Vec2 delta        = rabbit_pos - origin;
+    int  distance_cur = delta.Length();
+
+    if (distance_cur < distance_min) {
+      distance_min = distance_cur;
+      nearest_pos  = rabbit_pos;
+    }
   }
 
-  return entities_[entity_id];
+  return nearest_pos;
+}
+
+void Model::IterateSnakes(SnakeHandler1 handler, EntityId from, EntityId to) {
+  for (int i = from; i < to; i++)
+    handler((Snake*)entities_[i], this);
+}
+
+void Model::IterateSnakes(SnakeHandler2 handler, EntityId from, EntityId to) {
+  for (int i = from; i < to; i++)
+    handler((Snake*)entities_[i]);
+}
+
+void Model::IterateRabbits(RabbitHandler1 handler, EntityId from, EntityId to) {
+  for (int i = from; i < to; i++)
+    handler((Rabbit*)entities_[i], this);
+}
+
+void Model::IterateRabbits(RabbitHandler2 handler, EntityId from, EntityId to) {
+  for (int i = from; i < to; i++)
+    handler((Rabbit*)entities_[i]);
 }
 
 EntityId Model::AddRabbit(Vec2 pos) {
@@ -112,7 +158,7 @@ EntityId Model::AddRabbit(Vec2 pos) {
 
   ((Rabbit*)(entities_[MAX_SNAKES + n_rabbits_]))->position_ = pos;
 
-  LOG_LVL_MODEL_ROUTINE("rabbit " << n_rabbits_ << " spawned at pos " << pos);
+  LOG_LVL_MODEL_ROUTINE("rabbit " << MAX_SNAKES + n_rabbits_ << " spawned at pos " << pos);
 
   return n_rabbits_++;
 }
@@ -122,7 +168,7 @@ ResponseCode Model::RemoveEntity(EntityId entity_id) {
     LOG_LVL_MODEL_FAILURE("invalid id " << entity_id << " given to remove");
 
     return ResponseCode::Error;
-  } else if (entity_id <= n_snakes_ - 1) {
+  } else if (entity_id < n_snakes_) {
     if (entity_id != n_snakes_ - 1)
       entities_[entity_id] = entities_[n_snakes_ - 1];
 
@@ -132,7 +178,7 @@ ResponseCode Model::RemoveEntity(EntityId entity_id) {
                                    << " snakes on the map");
 
     return ResponseCode::Success;
-  } else if (entity_id < MAX_SNAKES + n_rabbits_ - 1) {
+  } else if (entity_id < MAX_SNAKES + n_rabbits_ - 1 && entity_id >= MAX_SNAKES) {
     if (entity_id != MAX_SNAKES + n_rabbits_ - 1)
       entities_[entity_id] = entities_[MAX_SNAKES + n_rabbits_ - 1];
 
@@ -155,59 +201,49 @@ ResponseCode Model::MoveSnake(EntityId snake_id) {
     return ResponseCode::Error;
   }
 
-  Vec2 new_head_pos    = ((Snake*)(entities_[snake_id]))->GetNewHeadPos();
-  bool out_of_bounds_x = new_head_pos.x < 0 || new_head_pos.x > map_size_.x;
-  bool out_of_bounds_y = new_head_pos.y < 0 || new_head_pos.y > map_size_.y;
+  Vec2 new_head_pos = ((Snake*)(entities_[snake_id]))->GetNewHeadPos();
+
+  bool out_of_bounds = IsOutOfBounds(new_head_pos);
 
   EntityId occupant = IsOccupied(new_head_pos);
 
   LOG_LVL_MODEL_ROUTINE("snake " << snake_id << " tries to move to " << new_head_pos
                                  << ", occupied by entity " << occupant);
 
-  if (occupant == -1) {
-    LOG_LVL_MODEL_ROUTINE("snake " << snake_id << " successfully moved to " << new_head_pos);
+  if (out_of_bounds) {
+    LOG_LVL_MODEL_FAILURE("snake " << snake_id << " died from collision boundary");
 
-    ((Snake*)(entities_[snake_id]))->Move();
+    RemoveEntity(snake_id);
 
-    return ResponseCode::Success;
-  } else if (occupant < n_snakes_) {
+    return ResponseCode::Failure;
+  } else if (occupant < n_snakes_ && occupant >= 0) {
     LOG_LVL_MODEL_FAILURE("snake " << snake_id << " died from collision with another snake "
                                    << occupant);
 
     RemoveEntity(snake_id);
 
     return ResponseCode::Failure;
-  } else if (occupant >= MAX_SNAKES && occupant < MAX_SNAKES + n_rabbits_) {
-    LOG_LVL_MODEL_ROUTINE("snake " << snake_id << "ate rabbit " << occupant);
-
-    RemoveEntity(occupant);
+  } else if (occupant == -1) {
+    LOG_LVL_MODEL_ROUTINE("snake " << snake_id << " successfully moved to " << new_head_pos);
 
     ((Snake*)(entities_[snake_id]))->Move();
 
     return ResponseCode::Success;
-  } else if (out_of_bounds_x || out_of_bounds_y) {
-    LOG_LVL_MODEL_FAILURE("snake " << snake_id << " died from collision boundary");
+  } else if (occupant >= MAX_SNAKES && occupant < MAX_SNAKES + n_rabbits_) {
+    LOG_LVL_MODEL_ROUTINE("snake " << snake_id << " ate rabbit " << occupant);
 
-    RemoveEntity(snake_id);
+    RemoveEntity(occupant);
+    AddRabbit(GetRandomPosition());
 
-    return ResponseCode::Failure;
+    ((Snake*)(entities_[snake_id]))->Grow();
+    ((Snake*)(entities_[snake_id]))->Move();
+
+    return ResponseCode::Success;
   } else {
     LOG_LVL_VIEW_FAILURE("invalid occupant id " << occupant << " recieved");
 
     return ResponseCode::Error;
   }
-}
-
-ResponseCode Model::GrowSnake(EntityId snake_id) {
-  if (snake_id < 0 || snake_id >= n_snakes_) {
-    LOG_LVL_MODEL_FAILURE("invalid snake_id " << snake_id << " given (inactive or out of range)");
-
-    return ResponseCode::Error;
-  }
-
-  ((Snake*)(entities_[snake_id]))->Grow();
-
-  return ResponseCode::Success;
 }
 
 EntityId Model::IsOccupied(Vec2 tile) {
@@ -222,4 +258,8 @@ EntityId Model::IsOccupied(Vec2 tile) {
   }
 
   return -1;
+}
+
+bool Model::IsOutOfBounds(Vec2 tile) {
+  return tile.x < 0 || tile.x >= map_size_.x || tile.y < 0 || tile.y >= map_size_.y;
 }

@@ -1,7 +1,7 @@
 #pragma once
 #include "./vec2.hpp"
 
-enum class Direction {
+enum Direction {
   Up,
   Down,
   Left,

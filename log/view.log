@@ -1,0 +1,1282 @@
+[VIEW] [Init]                                                         initializating text ui...
+[VIEW] [Init]                                                         actualized screen size: 191, 16
+[VIEW] [Init]                                                         initializing model...
+[VIEW] [Init]                                                         model initialized
+[VIEW] [Init]                                                         drawing scene...
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {119, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {149, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {80, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {87, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {38, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {76, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {114, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {152, 8}
+[VIEW] [Init]                                                         done
+[VIEW] [Init]                                                         text ui initialized
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {119, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {149, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {80, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {87, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {38, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {77, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {115, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {151, 8}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {119, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {149, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {80, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {87, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {38, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {78, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {116, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {151, 7}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {119, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {149, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {80, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {87, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {38, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {79, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {116, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {150, 7}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {119, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {149, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {80, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {80, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {39, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {80, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {117, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {150, 6}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {119, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {149, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {149, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {149, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {40, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {81, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {117, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {149, 6}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {119, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {149, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {149, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {149, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {41, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {82, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {118, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {148, 6}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {119, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {149, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {149, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {149, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {42, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {83, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {118, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {148, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {43, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {84, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {119, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {147, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {43, 4}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {85, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {119, 4}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {147, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {43, 3}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {86, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {118, 4}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {148, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {42, 3}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {87, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {117, 4}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {149, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {41, 3}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {88, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {116, 4}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {150, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {40, 3}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {89, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {115, 4}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {151, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {39, 3}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {90, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {114, 4}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {152, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {38, 3}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {90, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {113, 4}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {153, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {37, 3}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {91, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {112, 4}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {154, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {36, 3}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {92, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {111, 4}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {155, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {35, 3}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {93, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {111, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {156, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {34, 3}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {94, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {110, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {157, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {33, 3}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {95, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {110, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {158, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {32, 3}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {96, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {109, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {159, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {31, 3}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {97, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {109, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {160, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {30, 3}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {98, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {108, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {161, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {6, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {30, 4}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {99, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {108, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {162, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {30, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {100, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {107, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {163, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {30, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {101, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {107, 9}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {164, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {30, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {102, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {106, 9}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {165, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {29, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {102, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {106, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {166, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {28, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {103, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {105, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {167, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {27, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {104, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {105, 9}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {167, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {26, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {105, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {106, 9}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {167, 6}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {25, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {106, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {107, 9}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {167, 7}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {24, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {107, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {108, 9}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {167, 8}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {23, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {108, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {109, 9}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {167, 9}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {22, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {109, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {110, 9}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {167, 10}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {166, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {21, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {110, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {111, 9}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {167, 11}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {21, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {111, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {112, 9}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {166, 11}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {21, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {111, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {112, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {166, 10}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {22, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {110, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {112, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {167, 10}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {23, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {109, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {112, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {168, 10}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {24, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {108, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {111, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {169, 10}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {25, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {107, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {110, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {170, 10}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {26, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {106, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {109, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {170, 9}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {27, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {105, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {108, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {171, 9}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {28, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {104, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {107, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {171, 8}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {66, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {29, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {103, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {106, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {172, 8}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {29, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {102, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {105, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {172, 7}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {29, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {102, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {105, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {173, 7}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {29, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {103, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {106, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {173, 6}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {29, 9}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {104, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {107, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {174, 6}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {175, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {12, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {29, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {105, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {108, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {174, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {29, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {106, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {109, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {175, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {28, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {107, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {110, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {176, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {27, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {108, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {111, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {177, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {26, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {109, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {112, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {178, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {25, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {110, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {113, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {179, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {24, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {111, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {114, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {180, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {23, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {112, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {115, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {181, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {22, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {113, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {116, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {182, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {21, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {114, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {117, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {183, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {185, 5}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {11, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {20, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {115, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {118, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {184, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {19, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {116, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {119, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {185, 5}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {18, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {117, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {120, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {185, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {17, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {118, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {121, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {184, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {16, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {119, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {122, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {183, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {15, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {120, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {123, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {182, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {14, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {121, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {124, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {181, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {13, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {122, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {125, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {180, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {12, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {123, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {126, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {179, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {11, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {124, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {127, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {178, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {10, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {125, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {128, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {177, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {9, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {126, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {129, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {176, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {8, 11}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {127, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {130, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {175, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {8, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {128, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {131, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {174, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {8, 9}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {129, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {132, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {173, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {8, 8}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {130, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {133, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {172, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {8, 7}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {131, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {134, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {171, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {8, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {132, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {135, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {170, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {9, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {133, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {136, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {169, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {10, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {134, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {137, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {168, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {11, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {135, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {138, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {167, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {12, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {136, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {139, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {166, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {13, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {137, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {140, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {165, 4}
+[VIEW] [DrawScene]                                                    set model's map size from {191, 16} to 191, 16
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing rabbit at {156, 10}
+[VIEW] [DrawGameInstance]                                             drawing snake 0 at {14, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 1 at {138, 6}
+[VIEW] [DrawGameInstance]                                             drawing snake 2 at {141, 5}
+[VIEW] [DrawGameInstance]                                             drawing snake 3 at {164, 4}

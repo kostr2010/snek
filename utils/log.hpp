@@ -31,7 +31,7 @@ extern const int log_width;
 #define LOG_LVL_MODEL_ROUTINE(msg)                                                                 \
   log_model.open(log_model_path, std::ios::app | std::ios::in);                                    \
   /* result = std::time(nullptr); */                                                               \
-  buf << "[MODEL] " << __PRETTY_FUNCTION__;                                                        \
+  buf << "[MODEL] [" << __FUNCTION__ << "]";                                                       \
   log_model /* << std::asctime(std::localtime(&result))*/                                          \
       << std::setw(log_width) << std::left << buf.str() << msg << std::endl;                       \
   buf.str(std::string());                                                                          \
@@ -40,7 +40,7 @@ extern const int log_width;
 #define LOG_LVL_MODEL_FAILURE(msg)                                                                 \
   log_model.open(log_model_path, std::ios::app | std::ios::in);                                    \
   /* result = std::time(nullptr); */                                                               \
-  buf << "[MODEL] {FAILURE} " << __PRETTY_FUNCTION__;                                              \
+  buf << "[MODEL] [" << __FUNCTION__ << "] {FAILURE}";                                             \
   log_model /* << std::asctime(std::localtime(&result))*/                                          \
       << std::setw(log_width) << buf.str() << msg << std::endl;                                    \
   buf.str(std::string());                                                                          \
@@ -56,7 +56,7 @@ extern const int log_width;
 #define LOG_LVL_VIEW_ROUTINE(msg)                                                                  \
   log_view.open(log_view_path, std::ios::app | std::ios::in);                                      \
   /*result = std::time(nullptr);*/                                                                 \
-  buf << "[VIEW] " << __PRETTY_FUNCTION__;                                                         \
+  buf << "[VIEW] [" << __FUNCTION__ << "]";                                                        \
   log_view /*<< std::asctime(std::localtime(&result))*/ << std::setw(log_width) << std::left       \
                                                         << buf.str() << msg << std::endl;          \
   buf.str(std::string());                                                                          \
@@ -65,7 +65,7 @@ extern const int log_width;
 #define LOG_LVL_VIEW_FAILURE(msg)                                                                  \
   log_view.open(log_view_path, std::ios::app | std::ios::in);                                      \
   /* result = std::time(nullptr); */                                                               \
-  buf << "[VIEW] {FAILURE} " << __PRETTY_FUNCTION__;                                               \
+  buf << "[VIEW] [" << __FUNCTION__ << "] {FAILURE}";                                              \
   log_view /* << std::asctime(std::localtime(&result))*/                                           \
       << std::setw(log_width) << std::left << buf.str() << msg << std::endl;                       \
   buf.str(std::string());                                                                          \
@@ -81,7 +81,7 @@ extern const int log_width;
 #define LOG_LVL_CONTROLLER_ROUTINE(msg)                                                            \
   log_controller.open(log_controller_path, std::ios::app | std::ios::in);                          \
   /*result = std::time(nullptr);*/                                                                 \
-  buf << "[CONTROLLER] {FAILURE} " << __PRETTY_FUNCTION__;                                         \
+  buf << "[CONTROLLER] [" << __FUNCTION__ << "]";                                                  \
   log_controller /*<< std::asctime(std::localtime(&result))*/ << std::setw(log_width) << std::left \
                                                               << buf.str() << msg << std::endl;    \
   buf.str(std::string());                                                                          \
@@ -90,7 +90,7 @@ extern const int log_width;
 #define LOG_LVL_CONTROLLER_FAILURE(msg)                                                            \
   log_controller.open(log_controller_path, std::ios::app | std::ios::in);                          \
   /* result = std::time(nullptr); */                                                               \
-  buf << "[CONTROLLER] {FAILURE} " << __PRETTY_FUNCTION__;                                         \
+  buf << "[CONTROLLER] [" << __FUNCTION__ << "] {FAILURE}";                                        \
   log_controller /* << std::asctime(std::localtime(&result))*/                                     \
       << std::setw(log_width) << std::left << buf.str() << msg << std::endl;                       \
   buf.str(std::string());                                                                          \
