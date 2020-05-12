@@ -192,6 +192,11 @@ ResponseCode Model::RemoveEntity(EntityId entity_id) {
     if (entity_id != n_snakes_ - 1)
       entities_[entity_id] = entities_[n_snakes_ - 1];
 
+    if (entity_id == player_snake_) {
+      LOG_LVL_MODEL_ROUTINE("PLAYER_DIED");
+      player_snake_ = -1;
+    }
+
     entities_[n_snakes_ - 1] = nullptr;
 
     n_snakes_--;
@@ -263,6 +268,7 @@ ResponseCode Model::MoveSnake(EntityId snake_id) {
     RemoveEntity(occupant);
     AddRabbit(GetRandomPosition());
 
+    ((Snake*)(entities_[snake_id]))->score_++;
     ((Snake*)(entities_[snake_id]))->Grow();
     ((Snake*)(entities_[snake_id]))->Move();
 

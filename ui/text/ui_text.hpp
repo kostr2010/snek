@@ -26,6 +26,8 @@ public:
   void AddBinding(TimeHandler handler) override;
 
 private:
+  static void SigHandler(int signal);
+
   void GetUserInput();
 
   static winsize GetScreenSize();
@@ -50,8 +52,6 @@ private:
   std::vector<TimeHandler> time_bindings_;
 
   Model* model_;
-
-  // struct winsize win_sz_;
 
   int  tick_rate_ms_;
   bool game_is_paused_;

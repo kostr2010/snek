@@ -31,16 +31,14 @@ void TextUI::Init(int n_snakes, int n_rabbits) {
   model_->Init({win_sz.ws_col, win_sz.ws_row}, n_snakes, n_rabbits);
   LOG_LVL_VIEW_ROUTINE("model initialized");
 
-  AddBinding([](Model* model) { model->Tick(); }, 100);
-  AddBinding([](Model* model) { TextUI::DrawScene(model); }, 100);
+  AddBinding([](Model* model) { model->Tick(); }, 1);
+  AddBinding([](Model* model) { TextUI::DrawScene(model); }, 1);
 
   LOG_LVL_VIEW_ROUTINE("drawing scene...");
   TextUI::DrawScene(model_);
   LOG_LVL_VIEW_ROUTINE("done");
 
   fflush(stdout);
-
-  // ???
 
   struct termios sets;
   tcgetattr(0, &sets);
@@ -50,16 +48,13 @@ void TextUI::Init(int n_snakes, int n_rabbits) {
 
   tcsetattr(STDIN_FILENO, TCSANOW, &sets);
 
-  //   signal(SIGTERM, TermHandler);
-  //   signal(SIGINT, TermHandler);
-  //   signal(SIGTSTP, TermHandler);
+  // TODO: add termination handling
+  // signal(SIGTERM, SigHandler);
+  // signal(SIGINT, SigHandler);
+  // signal(SIGTSTP, SigHandler);
 
   LOG_LVL_VIEW_ROUTINE("text ui initialized");
 }
-
-// void TextUI::ActualizeScreenSize() {
-//   ioctl(0, TIOCGWINSZ, &win_sz);
-// }
 
 winsize TextUI::GetScreenSize() {
   winsize win_sz;
@@ -74,9 +69,6 @@ void TextUI::RunModel() {
   // DrawScene(model_);
 
   while (!game_is_finished_) {
-    // FIXME: screen tearing
-    // DrawScene(model_);
-
     while (game_is_paused_)
       GetUserInput();
 
@@ -112,6 +104,9 @@ void TextUI::RunModel() {
     if (fds_triggered != 0)
       GetUserInput();
 
+    if (model_->GetNSnakes() == 1)
+      game_is_finished_ = true;
+
     // PainterScore(my_game);
     fflush(stdin);
   }
@@ -121,7 +116,7 @@ void TextUI::RunModel() {
 }
 
 void TextUI::FinishModel() {
-  game_is_finished_ = true;
+  TextUI::ClearScreen();
 
   struct termios sets;
   tcgetattr(0, &sets);
@@ -196,6 +191,12 @@ int TextUI::TagToColor(int tag) {
     break;
   case 3:
     return 34; // red
+    break;
+  case 4:
+    return 35; // red
+    break;
+  case 5:
+    return 36; // red
     break;
   }
 

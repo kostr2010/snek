@@ -8,12 +8,12 @@ int main() {
   ControllerPlayer   controller_player{};
   ControllerComputer controller_computer{};
 
-  TextUI ui(&model, 1);
+  TextUI ui(&model, 100);
 
   ui.AddBinding(controller_player.GetKeyHandler());
-  ui.AddBinding(controller_computer.GetTickHandler(), 100);
+  ui.AddBinding(controller_computer.GetTickHandler(), 1);
 
-  ui.Init(4, 10);
+  ui.Init(6, 15);
 
   ui.RunModel();
 

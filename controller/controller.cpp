@@ -6,6 +6,11 @@ ControllerPlayer::ControllerPlayer() {
   handler_ = [](const char key, Model* model) {
     EntityId player_snake_id = model->GetPlayerSnakeId();
 
+    if (player_snake_id == -1)
+      return;
+
+    LOG_LVL_CONTROLLER_ROUTINE("player...");
+
     switch (key) {
     case 'a':
       model->IterateSnakes(
@@ -58,6 +63,8 @@ TickHandler ControllerPlayer::GetTickHandler() {
 }
 
 ControllerComputer::ControllerComputer() {
+  LOG_LVL_CONTROLLER_INIT();
+
   handler_ = [](Model* model) {
     model->IterateSnakes(
         [](Snake* snake, Model* model) {
@@ -95,13 +102,12 @@ ControllerComputer::ControllerComputer() {
 
           Vec2 nearest_rabbit = model->GetNearestRabbit(snake->segments_.front());
 
-          LOG_LVL_MODEL_ROUTINE("nearest rabbit for snake "
-                                << snake->tag_ << " at " << snake->segments_ << " is at "
-                                << nearest_rabbit << " free {up, down, left, right} "
-                                << possible_directions[0] << possible_directions[1]
-                                << possible_directions[2] << possible_directions[3]);
+          LOG_LVL_CONTROLLER_ROUTINE("nearest rabbit for snake "
+                                     << snake->tag_ << " at " << snake->segments_ << " is at "
+                                     << nearest_rabbit << " free {up, down, left, right} "
+                                     << possible_directions[0] << possible_directions[1]
+                                     << possible_directions[2] << possible_directions[3]);
 
-          // nearest rabbit for snake 2 at {{9, 5}, {10, 5}, } is at {155, 5} free 1110
           int dx = nearest_rabbit.x - snake_head.x;
           int dy = nearest_rabbit.y - snake_head.y;
 
@@ -124,29 +130,6 @@ ControllerComputer::ControllerComputer() {
             else if (possible_directions[Direction::Right])
               snake->move_direction_ = Direction::Right;
           }
-
-          // Direction up_or_down =
-          //     (nearest_rabbit.y < snake_head.y) ? Direction::Up : Direction::Down;
-          // Direction left_or_right =
-          //     (nearest_rabbit.x < snake_head.x) ? Direction::Left : Direction::Right;
-          // Direction snake_move_direction = snake->move_direction_;
-
-          // if (possible_directions[snake_move_direction] &&
-          //     (snake_move_direction == up_or_down || snake_move_direction == left_or_right))
-          //   return;
-
-          // if (possible_directions[up_or_down])
-          //   snake->move_direction_ = up_or_down;
-          // else if (possible_directions[left_or_right])
-          //   snake->move_direction_ = left_or_right;
-          // else if (possible_directions[0])
-          //   snake->move_direction_ = Direction::Up;
-          // else if (possible_directions[1])
-          //   snake->move_direction_ = Direction::Down;
-          // else if (possible_directions[2])
-          //   snake->move_direction_ = Direction::Left;
-          // else
-          //   snake->move_direction_ = Direction::Right;
         },
         model->GetPlayerSnakeId() + 1,
         model->GetNSnakes());

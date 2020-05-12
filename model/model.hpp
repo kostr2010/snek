@@ -10,8 +10,8 @@
 #include <set>
 #include <vector>
 
-const int MAX_RABBITS  = 10;
-const int MAX_SNAKES   = 4;
+const int MAX_RABBITS  = 20;
+const int MAX_SNAKES   = 6;
 const int MAX_ENTITIES = MAX_RABBITS + MAX_SNAKES;
 
 const int MIN_MAP_X = 10;
